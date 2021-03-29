@@ -1,0 +1,25 @@
+{
+  "name": "snicco/contracts",
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "hooks",
+    "laravel",
+    "events"
+  ],
+  "homepage": "https://github.com/calvinalkan/contracts",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Calvin Alkan",
+      "email": "calvin@snicco.de"
+    }
+
+  ],
+  "autoload": {
+    "psr-4": {
+      "Contracts\\": "/contracts"
+    }
+  }
+
+}
