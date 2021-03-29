@@ -39,11 +39,11 @@
 		 *
 		 * Call the given Closure / class@method and inject its dependencies.
 		 *
-		 * @param $method
-		 * @param $class
+		 * @param         $callable
+		 * @param  array  $parameters
 		 *
 		 * @return mixed
 		 */
-		public function call ( $method , $class );
+		public function call ( $callable , array $parameters = [] );
 		
 	}
