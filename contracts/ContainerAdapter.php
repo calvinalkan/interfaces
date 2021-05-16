@@ -67,4 +67,12 @@
          */
         public function singleton($abstract, $concrete );
 
+        /**
+         *
+         * Return the underlying container implementation for this adapter.
+         *
+         * @return mixed
+         */
+        public function implementation();
+
 	}
